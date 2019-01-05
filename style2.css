@@ -1,0 +1,80 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 1000px;
+    font-family: Poppins-Regular, sans-serif;
+    background-image: url(https://i.pinimg.com/originals/be/af/c2/beafc25a2b390ce4cf25fdca0d9caf36.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background:aliceblue;
+}
+
+input[type=submit] {
+  background-color: rgb(212, 0, 159);
+  color: rgba(255, 255, 255, 0.774);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a091;
+}
+
+.container1 {
+    width: 500px;
+  background: rgba(8, 8, 8, 0.918);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 42px 55px 45px 55px;
+}
+.container{
+    width: 100%;  
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+   
+    
+  }
+  .contact-form-title {
+    display: block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 39px;
+    color: #ac0081;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 44px;
+  }
+  .fname{
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 2em;
+      color: #9b0174 ;
+  }
+  
+  
+
